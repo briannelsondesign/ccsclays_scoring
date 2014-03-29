@@ -4,7 +4,7 @@ class LeagueTest < ActiveSupport::TestCase
 
   describe "belongs_to :sport" do
 
-    test "requires a Sport to be set" do
+    it "requires a Sport to be set" do
       league = League.make
       assert league.valid?
       league.sport = nil
