@@ -10,3 +10,7 @@ gem 'jquery-rails'
 group :development, :test do
   gem 'machinist', '~> 2.0'
 end
+
+group :test do
+  gem 'minitest-spec-rails'
+end
