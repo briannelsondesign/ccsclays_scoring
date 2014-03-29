@@ -1,13 +1,11 @@
 Scoring App
 ================
 
-In a season, there are 3 sports: Sporting Clays, Skeet, and 5-Stand. Skeet and 5-Stand have one league each, and Sporting Clays has 3 leagues.
+In a season, there are 3 sports: Sporting Clays, Skeet, and 5-Stand. Skeet and 5-Stand have one league each (currently), and Sporting Clays has 3 leagues.
 
-Leagues are made up of teams. A team can be in more than one sport, but only in one league per sport. (For example, the Loose Cannons can compete in Sporting Clays and Skeet, but not in Sporting Clays League 1 and Sporting Clays League 2)
+Leagues are made up of teams. Teams are made up of shooters. A shooter can be on more than one team, but only one team per sport.
 
-That being said, teams can have different rosters per sport, so the only thing a team really has in common across sports is the name and (probably) some of the shooters.
 
-So there might not really be a point in having the *same* team actually exist across sports. I'm ok with having unique teams with the same name if that's easier.
 
 ## Sport
 
@@ -16,12 +14,24 @@ So there might not really be a point in having the *same* team actually exist ac
 ## League
 
 * Has many teams
+* Belongs to one sport
 
 ## Team
 
 * Has many shooters
+* Belongs to one sport
 
 ## Shooter
 
-* Belongs to many teams
 * Has many scores
+* Can belong to many sports
+* Can belong to many leagues
+* Can belong to many teams
+* Belongs to one team per sport
+
+## Scores
+
+* Belong to one shooter
+* Belong to one team
+* Belong to one league
+* Belong to one sport
