@@ -7,3 +7,12 @@ require 'machinist/active_record'
 #     title { "Post #{sn}" }
 #     body  { "Lorem ipsum..." }
 #   end
+
+Sport.blueprint do
+  name { "Sporting Clays" }
+end
+
+League.blueprint do
+  name { "The Dominators" }
+  sport
+end

@@ -1,7 +1,12 @@
 require 'test_helper'
 
 class LeagueTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+
+  test "requires a Sport to be set" do
+    league = League.make
+    assert league.valid?
+    league.sport = nil
+    refute league.valid?
+  end
+
 end
