@@ -1,7 +1,12 @@
 require 'test_helper'
 
 class SportTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+
+  test "requires a name" do
+    sport = Sport.new
+    refute sport.valid?
+    sport.name = "Clay Shooting"
+    assert sport.valid?
+  end
+
 end
