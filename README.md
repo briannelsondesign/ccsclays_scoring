@@ -14,6 +14,7 @@ In a given season, each team consists of 4-6 shooters, and each season consists 
 ## League
 
 * Has many teams
+* Has many weeks
 * Belongs to one sport
 
 ## Team
@@ -28,6 +29,11 @@ In a given season, each team consists of 4-6 shooters, and each season consists 
 * Can belong to many leagues
 * Can belong to many teams
 * Belongs to one team per sport
+
+## Weeks
+
+* Belong to one league
+* Has many scores
 
 ## Scores
 
