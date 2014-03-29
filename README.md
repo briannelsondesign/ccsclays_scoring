@@ -5,7 +5,7 @@ In a season, there are 3 sports: Sporting Clays, Skeet, and 5-Stand. Skeet and 5
 
 Leagues are made up of teams. Teams are made up of shooters. A shooter can be on more than one team, but only one team per sport.
 
-
+In a given season, each team consists of 4-6 shooters, and each season consists of a number of weeks. Each week, a shooter files a score. A handicap is calculated by some weird-ass formula, so I have to get that figured out first.
 
 ## Sport
 
