@@ -1,3 +1,5 @@
 ClayScore::Application.routes.draw do
-  resources :sports
+  resources :sports do
+    resources :leagues
+  end
 end

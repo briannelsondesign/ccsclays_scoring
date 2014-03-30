@@ -1,0 +1,9 @@
+<h2><%= @sport.name %> Leagues</h2>
+
+<ul>
+  <% @leagues.each do |league| %>
+    <li><%= link_to league.name, [@sport, league] %></li>
+  <% end %>
+</ul>
+
+<%= link_to "New League", new_sport_league_path(@sport) %>
