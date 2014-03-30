@@ -45,7 +45,7 @@ Par - ((Wk1 SCR + Wk2 SCR) / 2) = Wk3 HCP
 
 So in each week, the top 4 ADJ's for each team are used to calculate the team's score.
 
-[IMAGE HERE]
+![team scores for the week](http://monosnap.com/image/fEglPeCnoUun0GjgRbWyS2hPJVIIW9.png)
 
 (45 + 44 + 45 + 45) = 179
 
@@ -57,17 +57,17 @@ All I know right now is that each player has to bank at least one (maybe 2) hand
 
 Each team is paired up against another team during each week of the season. So you can basically consider each week a different "match-up".
 
-[IMAGE]
+![team match-ups](http://monosnap.com/image/3pDZaFacxXWA6awF1LIMyMO2thpBi4.png)
 
 The idea is that each team should face every other time an equal number of times, as close as possible.
 
 Each team shoots their scores for the week, and the team score is recorded.
 
-[IMAGE]
+![team scores](http://monosnap.com/image/qlKO55aoPkanoHD6tGLLES9qQWcu5k.png)
 
 Teams can either win, lose, tie, or bye. The bye is basically a placeholder team you "play" against, if there are an unequal number of teams. It's like a free week that you automatically win.
 
-[IMAGE]
+![team results](http://monosnap.com/image/Ys3w5um6qXQQSXA7v3wZy6Ylga8sqQ.png)
 
 Then each team gets a point total based on how many wins, losses, ties, and byes they had. Wins and byes are worth 2 points each, ties worth 1, and losses worth 0.
 
