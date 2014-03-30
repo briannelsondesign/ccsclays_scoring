@@ -53,6 +53,10 @@ So in each week, the top 4 ADJ's for each team are used to calculate the team's 
 
 All I know right now is that each player has to bank at least one (maybe 2) handicap scores before the season begins, so that would make it pretty easy. We could just have 2 "pre-season" weeks or something.
 
+### Missing Weeks
+
+This is the biggest issue Mark has with his current spreadsheet. If a shooter misses a week, his SCR is 0, understandably, but then his handicap gets unfairly weighted since you're now averaging a "normal" score and a 0. What would be ideal is a "missed week" score so that the handicap calculation skips over the 0 and uses the previous 2 legitimate scores instead.
+
 ### Team Points
 
 Each team is paired up against another team during each week of the season. So you can basically consider each week a different "match-up".
