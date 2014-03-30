@@ -9,6 +9,8 @@ In a given season, each team consists of 4-6 shooters, and each season consists 
 
 ## Scoring Formula
 
+**Take a look at last year's [score results](https://github.com/digitalworkbox/clay_score/blob/master/Winchester%20Sporting%20Clays%202013.xls). This has all the formulas, but it's password-protected and I don't know the password. Also, it should be noted that it may not be 100% accurate, so trust your gut and my notes below if the math on the sheet doesn't seem to add up.**
+
 Each league has a par score. We'll use the Winchester League (Sporting Clays) as an example, with a par of 45 (out of 50 total birds).
 
 ### Score (SCR), Handicap, and Adjusted Score (ADJ)
