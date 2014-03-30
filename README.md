@@ -30,7 +30,7 @@ Ex. Mark's SCR was a 42, his handicap was a 4, so his ADJ is a 45
 Handicap is calculated by subtracting the average of the previous two weeks SCR (not ADJ) from par.
 
 Week 1 | Week 2 | Week 3
--- | -- | --
+------ | ------ | ------
 SCR: 35 | SCR: 39 | SCR: 31
 
 The handicap for Week 3 (what gets added to week 3's SCR) is calculated as 8.
@@ -39,6 +39,7 @@ The handicap for Week 3 (what gets added to week 3's SCR) is calculated as 8.
 Par - ((Wk1 SCR + Wk2 SCR) / 2) = Wk3 HCP
 45 - ((35 + 39) / 2) = 8
 ```
+
 *The average always gets rounded up, so if the scores are 40 and 41, the resulting handicap is a 4, not a 5 or 4.5.*
 
 **So, in our Week 1-3 example, Mark's week 3 ADJ would be 31 + 8, or 39.**
