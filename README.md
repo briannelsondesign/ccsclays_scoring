@@ -51,11 +51,19 @@ So in each week, the top 4 ADJ's for each team are used to calculate the team's 
 
 ### First 2 Weeks
 
-All I know right now is that each player has to bank at least one (maybe 2) handicap scores before the season begins, so that would make it pretty easy. We could just have 2 "pre-season" weeks or something.
+Since handicap needs 2 previous weeks of data, the first 2 weeks wouldn't work without some special treatment. Mark gets around this by using special handicap scores (for new shooters) or a previous year's average (for returning shooters).
+
+#### New Shooters
+
+For shooters who have **never** participated in league before (in previous years), two handicap scores must be logged.
+
+#### Returning Shooters
+
+Returning shooters use their previous year's shooting average as their "preseason score". *i.e. average of last year's SCRs*
 
 ### Missing Weeks
 
-This is the biggest issue Mark has with his current spreadsheet. If a shooter misses a week, his SCR is 0, understandably, but then his handicap gets unfairly weighted since you're now averaging a "normal" score and a 0. What would be ideal is a "missed week" score so that the handicap calculation skips over the 0 and uses the previous 2 legitimate scores instead.
+This is the biggest issue Mark has with his current spreadsheet. If a shooter misses a week, his SCR needs to be 80% of his previous two weeks scores, but then his handicap gets unfairly weighted since you're now averaging a "normal" score and a "discounted" score. What would be ideal is a "missed week" score so that the handicap calculation skips over the 80% score and uses the previous 2 legitimate scores instead.
 
 ### Team Points
 
