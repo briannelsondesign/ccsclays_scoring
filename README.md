@@ -63,7 +63,14 @@ Returning shooters use their previous year's shooting average as their "preseaso
 
 ### Missing Weeks
 
-This is the biggest issue Mark has with his current spreadsheet. If a shooter misses a week, his SCR needs to be 80% of his previous two weeks scores, but then his handicap gets unfairly weighted since you're now averaging a "normal" score and a "discounted" score. What would be ideal is a "missed week" score so that the handicap calculation skips over the 80% score and uses the previous 2 legitimate scores instead.
+This is the biggest issue Mark has with his current spreadsheet. If a shooter misses a week, his SCR should be 80% of his previous two weeks scores. As a result, his handicap gets unfairly weighted since you're now averaging a "normal" score and a "discounted" score.
+
+What would be ideal is a "missed week" option that:
+
+1. Automatically calculates the 80% score for the missed week
+2. Is ignored by the handicap caluclation
+
+The handicap calculation would then use the previous 2 non-missed scores.
 
 ### Team Points
 
