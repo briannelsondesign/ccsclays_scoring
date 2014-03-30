@@ -28,7 +28,7 @@ class SportsController < ApplicationController
 
   def update
     @sport = Sport.find(params[:id])
-    if @sport.update!(sport_params)
+    if @sport.update(sport_params)
       flash[:success] = "Ok, we updated '#{@sport.name}'."
       redirect_to @sport
     else
