@@ -90,17 +90,23 @@ Teams can either win, lose, tie, or bye. The bye is basically a placeholder team
 
 Then each team gets a point total based on how many wins, losses, ties, and byes they had. Wins and byes are worth 2 points each, ties worth 1, and losses worth 0.
 
+## Differences between sports
+
+As of this writing, I only have enough information to discuss Sporting Clays. I **think** Skeet and 5-Stand are very similar as far as scoring is concerned, but we may want to think about providing a way to "customize" the scoring formula by sport, even if its just uploading a JSON file or something that's written by me.
+
 ## Data Model
 
 ### Sport
 
 * Has many leagues
+* Has a scoring formula (?)
 
 ### League
 
 * Has many teams
 * Has many weeks
 * Belongs to one sport
+* Has a year
 
 ### Team
 
