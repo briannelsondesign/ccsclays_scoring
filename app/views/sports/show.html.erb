@@ -1,4 +1,4 @@
 <h2>Sport: <%= @sport.name %></h2>
 
 <%= link_to "Edit", edit_sport_path(@sport) %>
-<%= link_to "Delete", sport_path(@sport), method: :delete, confirm: "Delete this?" %>
+<%= link_to "Delete", sport_path(@sport), method: :delete, data: {confirm: "Delete this?"} %>
